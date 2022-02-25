@@ -1,0 +1,273 @@
+/* Documentation header [start] */
+
+#documentation {
+    margin-top: 6em;
+}
+
+#documentation .title {
+    font-family: kanit-Semibold;
+}
+
+
+/* Documen header [end]*/
+
+
+/* Semester 1 [Start] */
+
+#semester1 {
+    width: 100%;
+    height: auto;
+    background-color: #9ddbad;
+}
+
+#semester1 h3 {
+    font-family: Kanit-Semibold;
+}
+
+#semester1 h6 {
+    font-family: Kanit-Semibold;
+}
+
+#semester1 .btn-light {
+    background-color: #f3f3f3;
+    border-color: rgb(243, 243, 243);
+}
+
+#semester1 .btn-light:hover {
+    background-color: rgb(231, 231, 231);
+    border-color: rgb(231, 231, 231);
+}
+
+#semester1 .divider h1 {
+    font-family: Kanit-Semibold;
+}
+
+#semester1 .box {
+    width: 100%;
+    height: auto;
+    min-width: 30em;
+    max-height: 15em;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+}
+
+
+/* Semester 1 [End] */
+
+
+/* Semester 2 [Start] */
+
+#semester2 {
+    width: 100%;
+    height: auto;
+    background-color: #1d1d1d;
+}
+
+#semester2 h3 {
+    font-family: Kanit-Semibold;
+}
+
+#semester2 h6 {
+    font-family: Kanit-Semibold;
+}
+
+#semester2 .btn-light {
+    background-color: #f3f3f3;
+    border-color: rgb(243, 243, 243);
+}
+
+#semester2 .btn-light:hover {
+    background-color: rgb(231, 231, 231);
+    border-color: rgb(231, 231, 231);
+}
+
+#semester2 .divider h1 {
+    font-family: Kanit-Semibold;
+}
+
+#semester2 .box {
+    width: 100%;
+    height: auto;
+    min-width: 30em;
+    max-height: 20em;
+    background-color: #292929;
+    border-radius: 10px;
+}
+
+
+/* Semester 2 [End] */
+
+#coming-soon {
+    width: 100%;
+    height: auto;
+    min-height: 20em;
+    background-color: #9ddbad;
+}
+
+#coming-soon .title {
+    font-family: kanit-Semibold;
+}
+
+@media only screen and (max-width: 990px) {
+    #semester1 .title-box {
+        width: 30%;
+        height: auto;
+    }
+    #semester1 .subject-box {
+        width: 40%;
+        height: auto;
+    }
+    #semester1 .box {
+        width: 100%;
+        height: auto;
+        min-width: 10em;
+        max-height: 15em;
+        background-color: rgb(231, 231, 231);
+        border-radius: 10px;
+    }
+    #semester1 h3 {
+        font-family: Kanit-Semibold;
+        font-size: 30px;
+    }
+    #semester1 h6 {
+        font-family: Kanit-Semibold;
+    }
+    #semester2 .title-box {
+        width: 30%;
+        height: auto;
+    }
+    #semester2 .subject-box {
+        width: 45%;
+        height: auto;
+    }
+    #semester2 .box {
+        width: 100%;
+        height: auto;
+        min-width: 22em;
+        max-height: 25em;
+        background-color: #292929;
+        border-radius: 10px;
+    }
+    #semester2 h3 {
+        font-family: Kanit-Semibold;
+        font-size: 30px;
+    }
+    #semester2 h6 {
+        font-family: Kanit-Semibold;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #semester1 .title-box {
+        width: 30%;
+        height: auto;
+    }
+    #semester1 .subject-box {
+        width: 40%;
+        height: auto;
+    }
+    #semester1 .box {
+        width: 100%;
+        height: auto;
+        min-width: 10em;
+        max-height: 15em;
+        background-color: rgb(231, 231, 231);
+        border-radius: 10px;
+    }
+    #semester1 h3 {
+        font-family: Kanit-Semibold;
+        font-size: 30px;
+    }
+    #semester1 h6 {
+        font-family: Kanit-Semibold;
+    }
+    #semester2 .title-box {
+        width: 30%;
+        height: auto;
+    }
+    #semester2 .subject-box {
+        width: 45%;
+        height: auto;
+    }
+    #semester2 .box {
+        width: 100%;
+        height: auto;
+        min-width: 22em;
+        max-height: 25em;
+        background-color: #292929;
+        border-radius: 10px;
+    }
+    #semester2 h3 {
+        font-family: Kanit-Semibold;
+        font-size: 30px;
+    }
+    #semester2 h6 {
+        font-family: Kanit-Semibold;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #semester1 .title-box {
+        width: 80%;
+        height: auto;
+    }
+    #semester1 .subject-box {
+        width: 85%;
+        height: auto;
+    }
+    #semester1 .subject-box .text-content h3,
+    #semester1 .subject-box .text-content h5 {
+        text-align: center;
+    }
+    #semester1 .box {
+        width: 100%;
+        height: auto;
+        min-width: 15em;
+        max-height: 15em;
+        background-color: rgb(231, 231, 231);
+        border-radius: 10px;
+    }
+    #semester1 h3 {
+        font-family: Kanit-Semibold;
+        font-size: 30px;
+    }
+    #semester1 h6 {
+        font-family: Kanit-Semibold;
+    }
+    #semester2 .title-box {
+        width: 80%;
+        height: auto;
+    }
+    #semester2 .subject-box {
+        width: 85%;
+        height: auto;
+    }
+    #semester2 .subject-box .text-content h3,
+    #semester2 .subject-box .text-content h5 {
+        text-align: center;
+    }
+    #semester2 .box {
+        width: 100%;
+        height: auto;
+        min-width: 15em;
+        max-height: 30em;
+        background-color: #292929;
+        border-radius: 10px;
+    }
+    #semester2 h3 {
+        font-family: Kanit-Semibold;
+        font-size: 30px;
+    }
+    #semester2 h6 {
+        font-family: Kanit-Semibold;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #semester1 h5 {
+        font-size: 17px;
+    }
+    #semester2 h5 {
+        font-size: 17px;
+    }
+}

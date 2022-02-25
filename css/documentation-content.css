@@ -1,0 +1,228 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+/* body {
+    height: 1000vh;
+} */
+
+.text-contents h1 {
+    font-family: Kanit-Semibold;
+    color: #ffffff;
+}
+
+.side-navbar {
+    width: 20%;
+    max-width: 18em;
+    background: rgba(122, 122, 122, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.text-container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 26%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.side-navbar .header {
+    color: white;
+    font-family: Kanit-Regular;
+}
+
+.side-navbar .links {
+    color: white;
+    font-family: Kanit-Regular;
+}
+
+.btn-list:active,
+.btn-list:focus {
+    box-shadow: white 0px 0px 0px 2px;
+}
+
+.btn-list:hover {
+    background-color: #2f2f2fb7;
+}
+
+.text-contents .container-fluid {
+    width: 100%;
+}
+
+.nav-link {
+    color: #ffffff77;
+}
+
+.nav-link:hover {
+    color: #ffffff3b;
+    transition: all 0.1s ease-in-out;
+}
+
+.nav-link:focus {
+    color: #dddddd;
+    transition: all 0.1s ease-in-out;
+}
+
+
+/* Contents */
+
+#material-emphasis {
+    text-decoration: underline;
+    text-decoration-color: #9ddbad;
+    font-family: kanit-Semibold;
+}
+
+#text-h3 {
+    font-size: 2.2rem;
+    font-family: kanit-Semibold;
+}
+
+#text-p {
+    font-family: Kanit-Regular;
+    font-size: 1.15rem;
+}
+
+#p-header {
+    font-size: 1.6rem;
+    font-family: kanit-semibold;
+    list-style: none;
+}
+
+li#p-header::before {
+    content: "#";
+    color: #9ddbad;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.25em;
+}
+
+#p-paragraph {
+    font-size: 1.15rem;
+    font-family: Kanit-Regular;
+}
+
+#p-important {
+    font-size: 0.95rem;
+    font-family: Kanit-Regular;
+}
+
+.active.link-secondary {
+    font-weight: bold;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(35, 35, 35);
+}
+
+#codes {
+    margin-left: 2.5em;
+}
+
+pre {
+    width: 100%;
+    height: 100%;
+    max-height: 40vh;
+    background-color: rgb(35, 35, 35);
+}
+
+pre:focus {
+    outline: #ffc600 solid 1px;
+}
+
+
+/* Contents */
+
+@media only screen and (max-width: 1000px) {
+    .side-navbar {
+        display: none;
+    }
+    .text-container {
+        width: 100%;
+        min-height: 100vh;
+        padding-left: 0;
+        padding-right: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    #text-h3 {
+        margin-left: 0;
+    }
+    #text-p {
+        margin-left: 0;
+    }
+    #codes {
+        margin-left: 0;
+    }
+}
+
+
+/* 
+@media only screen and (max-width: 1024px) {
+    #material-content .material-emphasis {
+        font-size: 10px;
+    }
+} */
+
+@media only screen and (max-width: 600px) {
+    .breadcrumb {
+        font-size: 0.85rem;
+    }
+    ul#ul {
+        line-height: 1.5em;
+        font-size: 1rem;
+        font-family: kanit-regular;
+    }
+    #text-h3 {
+        font-size: 1.5rem;
+        font-family: kanit-Semibold;
+    }
+    #text-p {
+        font-family: Kanit-Regular;
+        font-size: 1rem;
+    }
+    #p-header {
+        font-size: 1.3rem;
+        font-family: kanit-semibold;
+        list-style: none;
+    }
+    li#p-header::before {
+        content: "#";
+        color: #9ddbad;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1.25em;
+    }
+    #p-paragraph {
+        font-size: 1.15rem;
+        font-family: Kanit-Regular;
+    }
+    #p-important {
+        font-size: 0.85rem;
+        font-family: Kanit-Regular;
+    }
+    .active.link-secondary {
+        font-weight: bold;
+        color: #fff;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: rgb(35, 35, 35);
+    }
+    #codes {
+        margin-left: 2.5em;
+    }
+    pre {
+        width: 100%;
+        height: 100%;
+        max-height: 40vh;
+        background-color: rgb(35, 35, 35);
+    }
+    pre:focus {
+        outline: #ffc600 solid 1px;
+    }
+}

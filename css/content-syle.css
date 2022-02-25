@@ -1,0 +1,43 @@
+span.p-emphasis {
+    color: #ffad4f;
+    font-family: kanit-semibold;
+}
+
+.p-focus {
+    font-size: 1.3rem;
+    font-family: kanit-semibold;
+}
+
+.callout-dark {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #c25199;
+    color: #ffffff;
+    background-color: #252525;
+    border-left-width: 0.3em;
+    border-radius: 0.3rem;
+}
+
+.line-height-md {
+    line-height: 1.2em;
+}
+
+.list-decimal {
+    list-style: decimal;
+    line-height: 0.8em;
+    margin-left: -1em;
+}
+
+.output {
+    font-family: kanit-semibold;
+    font-size: 1.15rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .list-decimal {
+        list-style: decimal;
+        line-height: 1.2em;
+        margin-left: -1em;
+    }
+}

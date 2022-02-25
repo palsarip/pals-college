@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Kanit-SemiBold;
+    src: url(../fonts/Kanit-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Kanit-Regular;
+    src: url(../fonts/Kanit-Regular.ttf);
+}
+
+body {
+    background-color: #1d1d1d;
+}
+
+
+/* Webkit */
+
+
+/* Webkit */
+
+
+/* Navbar [Start] */
+
+.bg-blur {
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+}
+
+nav {
+    font-family: Kanit-Regular;
+}
+
+.navbar-brand {
+    font-family: Kanit-SemiBold;
+    font-size: 25px;
+}
+
+nav ul {
+    padding-top: 0.4em;
+    font-size: 18px;
+}
+
+.breadcrumb-item>a {
+    color: #9ddbad;
+}
+
+.bc-style {
+    color: #9ddbad;
+}
+
+.breadcrumb>.active {
+    color: #9ddbad94;
+}
+
+.breadcrumb-item>a:hover,
+.bc-style:hover {
+    color: #9ddbad77;
+    transition: all 0.07s ease-in-out;
+}
+
+
+/* Navbar [End] */
+
+
+/* Footer [Start] */
+
+footer {
+    font-family: Kanit-Semibold;
+}
+
+footer a,
+footer p {
+    font-family: Kanit-Regular;
+}
+
+
+/* Footer [End] */
+
+@media all and (min-width: 992px) {
+    *::-webkit-scrollbar {
+        width: 0.4em;
+        height: 0.4em;
+    }
+    *::-webkit-scrollbar-track-button {
+        display: none;
+    }
+    *::-webkit-scrollbar-thumb {
+        background-color: rgb(169, 169, 169);
+        outline: 1px solid slategrey;
+        border-radius: 10px;
+    }
+    *::-webkit-scrollbar-corner {
+        display: none;
+    }
+    .dropdown-menu li {
+        position: relative;
+    }
+    .dropdown-menu .submenu {
+        display: none;
+        position: absolute;
+        left: 101%;
+        top: -7px;
+    }
+    .dropdown-menu .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+    .dropdown-menu>li:hover {
+        background-color: #f1f1f1;
+    }
+    .dropdown-menu>li:hover>.submenu {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+}
